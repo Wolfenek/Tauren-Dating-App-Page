@@ -1,7 +1,8 @@
 body, html {
   background-color: #0080ff;
   color: white;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-size: 18px; }
 
 .first-section {
   min-height: calc(80vh - 140px);
@@ -27,7 +28,7 @@ nav .navbar-nav li a {
 .short-info {
   vertical-align: center; }
   .short-info * {
-    margin-bottom: 20px; }
+    margin-bottom: 1rem; }
   .short-info img {
     border-radius: 5px; }
 
@@ -41,5 +42,44 @@ nav .navbar-nav li a {
 
 .wow-class-icons img {
   margin: 4px 6px; }
+
+#formular {
+  min-height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/form-bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%; }
+
+#sign-up-form {
+  margin: 0 auto;
+  max-width: 450px;
+  height: 720px;
+  border: 2px solid grey;
+    border-radius: 5px; }
+
+::placeholder {
+  color: darkgrey; }
+
+.labels {
+  padding-top: 1rem; }
+
+.windows input {
+  color: white;
+  width: 90%;
+  height: 80px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid grey;
+  background-color: transparent; }
+
+.my-button {
+  margin-top: 10px;
+  width: 120px;
+  height: 120px;
+  color: white;
+  font-size: 24px;
+  background-color: #29a329;
+  border: 3px solid grey;
+    border-radius: 50%; }
 
 /*# sourceMappingURL=main.css.map */
