@@ -1,0 +1,45 @@
+body, html {
+  background-color: #0080ff;
+  color: white;
+  overflow-x: hidden; }
+
+.first-section {
+  min-height: calc(80vh - 140px);
+  margin-top: 120px; }
+
+.bg-nav {
+  background-color: #003366 !important; }
+
+.navbar {
+  min-height: 80px;
+  padding: 20px 20%; }
+
+nav .navbar-nav li a {
+  color: yellow !important;
+  text-transform: uppercase;
+  margin-right: 15px; }
+
+#brand-name {
+  font-size: 20px;
+  color: white;
+  padding-left: 5%; }
+
+.short-info {
+  vertical-align: center; }
+  .short-info * {
+    margin-bottom: 20px; }
+  .short-info img {
+    border-radius: 5px; }
+
+#phone {
+  width: 276px;
+  height: auto; }
+
+#wow-classes {
+  background-color: #003366;
+  padding: 40px 0; }
+
+.wow-class-icons img {
+  margin: 4px 6px; }
+
+/*# sourceMappingURL=main.css.map */
