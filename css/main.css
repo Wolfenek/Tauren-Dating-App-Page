@@ -45,9 +45,7 @@ nav .navbar-nav li a {
 
 #formular {
   min-height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/form-bg.jpg);
-  background-size: cover;
-  background-position: 50% 50%; }
+  width: auto; }
 
 #sign-up-form {
   margin: 0 auto;
