@@ -12,6 +12,15 @@ body, html {
     overflow-x: hidden;
     font-size: 18px;
 }
+//links
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
 
 #welcome {
     //put first big img here background-color: aquamarine;
@@ -106,13 +115,28 @@ nav .navbar-nav li a {
 //styling submit button
 .my-button {
     margin-top: 10px;
-    width: 120px;
-    height: 120px;
-    color: white;
+    width: 160px;
+    height: 50px;
+    color: black;
     font-size: 24px;
-    background-color: #29a329;
-    border: 3px solid grey {
-        radius: 50%;
+    background-color: burlywood;
+    border: 2px solid grey {
+        radius: 10px;
     }
-   
+}
+// 3rd section
+#bg-switch {
+    min-height: 90vh;
+    width: auto;
+}
+.happy-tauren {
+    min-height: 50px;
+    padding: 0.5rem 0.25rem;
+    background-color: $secondary-color;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: 3px solid #303030 {
+        radius: 8px;
+        };
 }

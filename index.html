@@ -12,10 +12,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/main.css">
+    
+    <script>
+    
+        const scenes = ['linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(scenes/scene1.jpg)', 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(scenes/scene2.jpg)', 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(scenes/scene3.jpg)', 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(scenes/scene4.jpg)'];
+        
+        let currImg = ''
+
+        function randomScene() {
+              const shuffle = Math.floor(Math.random() * (scenes.length));
+              if (scenes[shuffle] === currImg) {
+                randomScene()
+              } else {
+                document.getElementById('bg-switch').style.backgroundImage = scenes[shuffle];
+                currImg = scenes[shuffle];
+              }
+            };
+        
+    </script>
         
 </head>
 
-<body>R
+<body>
     
         <nav class="navbar navbar-expand navbar-light bg-nav fixed-top" id="navbar">
              
@@ -44,8 +62,8 @@
                        <div class="short-info">
                            <h1>Tauren dating app</h1>
                            <h2>A place where single tauren unite</h2>
-                           <h3>Why travel alone?</h3>
-                           <h3>Find a beefy partner</h3>
+                            <h3>Why travel alone?</h3>
+                            <h3>Find a beefy partner!</h3>
                            <img src="img/app.png" alt="tauren dating app">
                        </div>
                    </div>
@@ -82,37 +100,45 @@
                 <br>
                 <div id="sign-up-form">
                     <form action="#" method="get" id="survey-form">
-             <div class="form-elements">
-                    <div clasws="labels">
-                        <label for="Name" id="name-label">Name:</label>
-                    </div>
-                    <div class="windows">
-                        <input required type="text" name="Name" id="name" class="input-field" placeholder="E.g. Haul Kodojumper">
-                    </div>
-                </div>
-                
-                <div class="form-elements">
-                    <div class="labels">
-                        <label for="Email" id="email-label">Goblin Mail Address:</label>
-                    </div>
-                    <div class="windows">
-                     <input required type="email" name="Email" id="email" class="input-field" placeholder="Thunder Bluff, Tent number...">
-                    </div>
-                </div>
-                
-               <div class="form-elements">
-                    <div class="labels">
-                        <label for="Email" id="email-label">Choose your password:</label>
-                    </div>
-                    <div class="windows">
-                     <input required type="password" name="Email" id="eeee" class="input-field" placeholder="Tauren secrets...">
-                    </div>
-                </div>
+                        <!-- form element ONE -->
+                        <div class="form-elements">
+                            <div clasws="labels">
+                                <label for="Name">Name:</label>
+                            </div>
+                            <div class="windows">
+                                <input required type="text" name="Name" id="name" class="input-field" placeholder="E.g. Haul Kodojumper...">
+                            </div>
+                        </div>
+                        <!-- form element TWO -->
+                        <div class="form-elements">
+                            <div class="labels">
+                                <label for="Email">Goblin Mail Address:</label>
+                            </div>
+                            <div class="windows">
+                             <input required type="email" name="Email" id="email" class="input-field" placeholder="Thunder Bluff, Tent number...">
+                            </div>
+                        </div>
+                        <!-- form element THREE -->    
+                        <div class="form-elements">
+                            <div class="labels">
+                                <label for="Password" id="email-label">Choose your password:</label>
+                            </div>
+                            <div class="windows">
+                             <input required type="password" name="Password" id="password" class="input-field" placeholder="Tauren secrets...">
+                            </div>
+                        </div>
                        
-                <button type="submit" class="my-button">Success</button>
+                        <button type="submit" class="my-button">Success</button>
                 
-            </form>        
+                    </form>        
                 </div>
+            </div>
+            
+        </section>
+        
+        <section id="bg-switch" style="background-image: url(img/signup.jpg); background-size: cover; background-position: center;">
+            <div class="container text-center">
+                <a><button type="button" class="happy-tauren mt-4" onclick="randomScene()">Click for happy tauren!</button></a>
             </div>
         </section>        
 
