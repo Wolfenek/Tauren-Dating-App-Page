@@ -1,0 +1,60 @@
+//section 2
+#formular {
+    min-height: 80vh;
+    width: auto;
+}
+
+#sign-up-form {
+    margin: 0 auto;
+    max-width: 450px;
+    height: 720px;
+    border: 2px solid grey {
+        radius: 5px;
+    }
+}
+
+::placeholder {
+    color: darkgrey;
+}
+
+.labels {
+    padding-top: 1rem;
+}
+
+.windows {
+    input, {
+    color: white;
+    width: 90%;
+    height: 80px;
+        border : {
+            top: none; right: none; left: none; bottom: 2px solid grey;
+        }
+    background: {
+        color: transparent;
+        }
+    }
+}
+
+//styling submit button
+.my-button {
+    margin-top: 10px;
+    width: 160px;
+    height: 50px;
+    color: black;
+    font-size: 24px;
+    background-color: burlywood;
+    border: 2px solid grey {
+        radius: 10px;
+    }
+}
+
+//Tauren icons
+.scale-it {
+    animation-name: grow;
+    animation-duration: 1500ms;
+}
+@keyframes grow {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}

@@ -1,0 +1,65 @@
+//section 1
+#welcome {
+    //put first big img here background-color: aquamarine;
+}
+
+.first-section {
+    @include first-section;
+}
+
+.bg-nav {
+    background-color: $secondary-color !important; 
+}
+.navbar {
+    min-height: 80px;
+    padding: 20px 20%;
+}
+// changing nav link color
+nav .navbar-nav li a {
+    color: yellow !important;
+    text-transform: uppercase;
+    margin-right: 15px;
+  }
+
+#brand-name {
+    font-size: 20px; 
+    color: white;
+    padding-left: 5%;
+}
+
+.short-info {
+    vertical-align: center;
+    * {
+        margin-bottom: 1rem;
+    }
+    img {
+        border-radius: 5px;
+    }
+}
+
+#phone {
+    width: 276px;
+    height: auto;
+}
+
+#wow-classes {
+    background-color: $secondary-color;
+    padding: 40px 0;
+}
+
+.wow-class-icons {
+    img {
+        margin: 4px 6px;
+        cursor: pointer;
+    }
+}
+
+.twist-it {
+    animation-name: pulse;
+    animation-duration: 2250ms;
+}
+@keyframes pulse {
+    0% {transform: rotate(0deg) scale(1);}
+    50% {transform: rotate(360deg) scale(1.2);}
+    100% {transform: rotate(0deg) scale(1);}
+}

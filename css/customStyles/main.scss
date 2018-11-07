@@ -1,0 +1,21 @@
+@import "variables";
+@import "mixins";
+@import "section1";
+@import "section2";
+@import "section3";
+
+body, html {
+    background-color: $body-color;
+    color: white;
+    overflow-x: hidden;
+    font-size: 18px;
+}
+//links
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}

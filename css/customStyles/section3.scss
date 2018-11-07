@@ -1,0 +1,16 @@
+//section 3
+#bg-switch {
+    min-height: 90vh;
+    width: auto;
+}
+.happy-tauren {
+    min-height: 50px;
+    padding: 0.5rem 0.25rem;
+    background-color: $secondary-color;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: 3px solid #303030 {
+        radius: 8px;
+        };
+}
