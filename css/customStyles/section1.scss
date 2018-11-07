@@ -49,8 +49,7 @@ nav .navbar-nav li a {
 
 .wow-class-icons {
     img {
-        margin: 4px 6px;
-        cursor: pointer;
+        @include iconic;
     }
 }
 

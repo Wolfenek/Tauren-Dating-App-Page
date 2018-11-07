@@ -2,3 +2,8 @@
     min-height: calc(80vh - 140px);
     margin-top: 120px; 
 }
+
+@mixin iconic {
+    margin: 4px 6px;
+    cursor: pointer;
+}

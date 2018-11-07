@@ -3,14 +3,15 @@
     min-height: 90vh;
     width: auto;
 }
-.happy-tauren {
+.moo {
     min-height: 50px;
+    min-width: 100px;
     padding: 0.5rem 0.25rem;
     background-color: $secondary-color;
     color: white;
     cursor: pointer;
     text-transform: capitalize;
-    border: 3px solid #303030 {
-        radius: 8px;
+    border: 1px solid #303030 {
+        radius: 10px;
         };
 }
