@@ -81,14 +81,14 @@
             <div class="container text-center">
                 <br>
                 <div id="sign-up-form">
-                    <form action="#" method="get" id="survey-form">
+                    
                         <!-- form element ONE -->
                         <div class="form-elements">
                             <div clasws="labels">
                                 <label for="Name">Name:</label>
                             </div>
                             <div class="windows">
-                                <input required type="text" name="Name" id="name" class="input-field" placeholder="E.g. Haul Kodojumper...">
+                                <input type="text" name="Name" id="name" class="input-field" placeholder="E.g. Haul Kodojumper...">
                             </div>
                         </div>
                         <!-- form element TWO -->
@@ -97,7 +97,7 @@
                                 <label for="Email">Goblin Mail Address:</label>
                             </div>
                             <div class="windows">
-                             <input required type="email" name="Email" id="email" class="input-field" placeholder="Thunder Bluff, Tent number...">
+                             <input type="text" name="Email" id="email" class="input-field" placeholder="Thunder Bluff, Tent number...">
                             </div>
                         </div>
                         <!-- form element THREE -->    
@@ -106,13 +106,18 @@
                                 <label for="Password" id="email-label">Choose your password:</label>
                             </div>
                             <div class="windows">
-                             <input required type="password" name="Password" id="password" class="input-field" placeholder="Tauren secrets...">
+                             <input type="password" name="Password" id="password" class="input-field" placeholder="Tauren secrets...">
                             </div>
                         </div>
                        
-                        <button type="submit" class="my-button">Success</button>
+                        <button type="submit" class="my-button" onclick="randomQuote()">Let's go!</button>
                 
-                    </form>        
+                  
+                    
+                    <div id="fun-output">
+                        
+                    </div>
+                                   
                 </div>
             </div>
             
@@ -165,7 +170,7 @@
                     
                     <div class="col-12">
                         <div class="disclaimer">
-                            <p>By using our service, you agree to our <a href="">PRIVACY POLICY</a> that includes complete nonsense, rubbish, and was probably written by some drunken wannabe orc lawyer who accepts any job (including this project), so he can pay his college fees. Also, we like coffee.</p>
+                            <p>By using our service, you agree to our <a href="" style="color: #00bfff;">PRIVACY POLICY</a> that includes complete nonsense, rubbish, and was probably written by some drunken wannabe orc lawyer who accepts any job (including this project), so he can pay his college fees. Also, we like coffee.</p>
                         </div>
                     </div>
                     
@@ -182,7 +187,7 @@
     <!-- Custom JS files -->
     <script src="js/wow-bgs.js"></script>
     <script src="js/wow-icons1.js"></script>
-    <script src="js/wow-icons2.js"></script>    
+    <script src="js/random-quote.js"></script>   
 
 </body>
 </html>

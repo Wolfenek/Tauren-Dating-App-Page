@@ -1,4 +1,5 @@
-var endAnimation = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oAnimationEnd animationend';
+const endAnimation = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oAnimationEnd animationend';
+// 1st set of icons:
 
 $(function() {
     $('#warrior').on('click',function() {
@@ -6,61 +7,75 @@ $(function() {
             $(this).removeClass('twist-it');
         });
     });
-}); 
-
-$(function() {
+    
     $('#paladin').on('click',function() {
         $('#paladin').addClass('twist-it').one(endAnimation,function() {
             $(this).removeClass('twist-it');
         });
     });
-}); 
-
-$(function() {
+    
     $('#dk').on('click',function() {
         $('#dk').addClass('twist-it').one(endAnimation,function() {
             $(this).removeClass('twist-it');
         });
     });
-}); 
-
-$(function() {
+    
     $('#hunter').on('click',function() {
         $('#hunter').addClass('twist-it').one(endAnimation,function() {
             $(this).removeClass('twist-it');
         });
     });
-}); 
-
-$(function() {
-    $('#shaman').on('click',function() {
+    
+     $('#shaman').on('click',function() {
         $('#shaman').addClass('twist-it').one(endAnimation,function() {
             $(this).removeClass('twist-it');
         });
     });
-}); 
-
-$(function() {
+    
     $('#druid').on('click',function() {
         $('#druid').addClass('twist-it').one(endAnimation,function() {
             $(this).removeClass('twist-it');
         });
     });
-}); 
-
-$(function() {
+    
     $('#monk').on('click',function() {
         $('#monk').addClass('twist-it').one(endAnimation,function() {
             $(this).removeClass('twist-it');
         });
     });
-}); 
-
-$(function() {
-    $('#priest').on('click',function() {
+    
+     $('#priest').on('click',function() {
         $('#priest').addClass('twist-it').one(endAnimation,function() {
             $(this).removeClass('twist-it');
         });
     });
-}); 
     
+});
+// 2nd set of icons:
+
+$(function() {
+    $('#t-male').on('click',function() {
+        $('#t-male').addClass('scale-it').one(endAnimation,function() {
+            $(this).removeClass('scale-it');
+        });
+    });
+    
+    $('#t-female').on('click',function() {
+        $('#t-female').addClass('scale-it').one(endAnimation,function() {
+            $(this).removeClass('scale-it');
+        });
+    });
+    
+    $('#h-male').on('click',function() {
+        $('#h-male').addClass('scale-it').one(endAnimation,function() {
+            $(this).removeClass('scale-it');
+        });
+    });
+    
+     $('#h-female').on('click',function() {
+        $('#h-female').addClass('scale-it').one(endAnimation,function() {
+            $(this).removeClass('scale-it');
+        });
+    });
+    
+});

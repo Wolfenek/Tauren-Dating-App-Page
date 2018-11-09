@@ -1,0 +1,27 @@
+#faq-one {
+    margin: 120px 0 40px 0;
+}
+
+.btn-my-link {
+  font-weight: 400;
+  color: #f2f2f2;
+  background-color: transparent;
+}
+
+.btn-my-link:hover {
+  color: #d9d9d9;
+  text-decoration: underline;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-my-link:focus, .btn-link.focus {
+  text-decoration: underline;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.btn-my-link:disabled, .btn-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
+}

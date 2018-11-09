@@ -60,6 +60,11 @@ nav .navbar-nav li a {
   border: 2px solid grey;
     border-radius: 5px; }
 
+#fun-output {
+  margin: 75px 10px 0 10px;
+  min-width: 200px;
+  height: 120px; }
+
 ::placeholder {
   color: darkgrey; }
 
@@ -117,17 +122,43 @@ nav .navbar-nav li a {
     border-radius: 10px; }
 
 footer {
-  background-color: #303030; }
+  background-color: #303030;
+  padding: 40px 0; }
 
-.list-inline {
-  padding: 15px 0; }
-  .list-inline * {
-    margin-left: 1rem; }
+.list-inline * {
+  margin-left: 1rem;
+  color: #39e600;
+  text-shadow: 0 0 10px #f2f2f2;
+  font-size: 22px; }
+
+#faq-one {
+  margin: 120px 0 40px 0; }
+
+.btn-my-link {
+  font-weight: 400;
+  color: #f2f2f2;
+  background-color: transparent; }
+
+.btn-my-link:hover {
+  color: #d9d9d9;
+  text-decoration: underline;
+  background-color: transparent;
+  border-color: transparent; }
+
+.btn-my-link:focus, .btn-link.focus {
+  text-decoration: underline;
+  border-color: transparent;
+  box-shadow: none; }
+
+.btn-my-link:disabled, .btn-link.disabled {
+  color: #6c757d;
+  pointer-events: none; }
 
 body, html {
   background-color: #0080ff;
   color: white;
-  overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden !important;
   font-size: 18px; }
 
 a {

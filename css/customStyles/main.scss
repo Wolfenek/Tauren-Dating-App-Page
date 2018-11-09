@@ -4,11 +4,13 @@
 @import "section2";
 @import "section3";
 @import "footer";
+@import "faq";
 
 body, html {
     background-color: $body-color;
     color: white;
-    overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden !important;
     font-size: 18px;
 }
 //links
