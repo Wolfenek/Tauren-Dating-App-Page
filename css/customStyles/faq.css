@@ -1,53 +1,42 @@
 #faq-one {
-    margin: 120px 0 40px 0;
-}
+  margin: 120px 0 40px 0; }
 
 .btn-my-link {
   font-weight: 400;
   color: #f2f2f2;
-  background-color: transparent;
-}
+  background-color: transparent; }
 
-// Will use altered .btn-link class
 .btn-my-link:hover {
   color: #d9d9d9;
   text-decoration: underline;
   background-color: transparent;
-  border-color: transparent;
-}
+  border-color: transparent; }
 
 .btn-my-link:focus, .btn-link.focus {
   text-decoration: underline;
   border-color: transparent;
-  box-shadow: none;
-}
+  box-shadow: none; }
 
 .btn-my-link:disabled, .btn-link.disabled {
   color: #6c757d;
-  pointer-events: none;
-}
+  pointer-events: none; }
 
 .wrap-heading {
-    white-space: normal;
-}
-// Tauren img 
-.big-tauren {
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-//Accordion field backgrounds
+  white-space: normal; }
+
+.big-tauren img {
+  max-width: 100%;
+  height: auto; }
+
 .bg-faq {
-  background-color: #663300 !important;
-}
+  background-color: #663300 !important; }
 
 a.bg-faq:hover, a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
-  background-color: #663300!important;
-}
+  background-color: #663300 !important; }
 
 .bg-expands {
-    background-color: #994d00;
-}
+  background-color: #994d00; }
+
+/*# sourceMappingURL=faq.css.map */

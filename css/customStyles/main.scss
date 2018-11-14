@@ -1,5 +1,6 @@
 @import "variables";
 @import "mixins";
+@import "responsive-typography";
 @import "section1";
 @import "section2";
 @import "section3";
@@ -7,7 +8,7 @@
 @import "faq";
 
 body, html {
-    background-color: $body-color;
+    background-image: $main-color;
     color: white;
     max-width: 100%;
     overflow-x: hidden !important;
@@ -21,4 +22,26 @@ a {
 
 a:hover {
     color: white;
+}
+
+// navigation
+.bg-nav {
+    background-color: $secondary-color !important; 
+}
+.navbar {
+    min-height: 80px;
+    padding: 20px 20%;
+    border-bottom: 2px solid #0d0d0d;
+}
+// changing nav link color
+nav .navbar-nav li a {
+    color: yellow !important;
+    text-transform: uppercase;
+    margin-right: 15px;
+  }
+
+#brand-name {
+    font-size: 20px; 
+    color: white;
+    padding-left: 5%;
 }

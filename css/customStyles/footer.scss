@@ -1,5 +1,5 @@
 footer {
-    background-color: #303030;
+    background-color: $footer-color;
     padding: 40px 0;
 }
 
@@ -9,5 +9,19 @@ footer {
         color: #39e600;
         text-shadow: 0 0 10px #f2f2f2;
         font-size: 22px;
+    }
+    .list-tag {
+        text-transform: uppercase;
+        color: lightblue;
+        text-shadow: none;
+        font-size: 18px;
+    }
+}
+
+.disclaimer:first-child {
+    text-align: justify;
+    a {
+        color: #00bfff;
+        margin-right: 1rem;
     }
 }

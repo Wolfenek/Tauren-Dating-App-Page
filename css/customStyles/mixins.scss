@@ -1,9 +1,11 @@
-@mixin first-section {
-    min-height: calc(80vh - 140px);
-    margin-top: 120px; 
-}
-
 @mixin iconic {
     margin: 4px 6px;
     cursor: pointer;
+}
+
+@mixin borders {
+    border: {
+        top: 3px solid #0d0d0d;
+        bottom: 3px solid #0d0d0d;
+    }
 }
