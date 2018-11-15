@@ -14,6 +14,10 @@
   min-height: calc(80vh - 140px);
   margin-top: 120px; }
 
+@media (max-width: 767px) {
+  .flavor-text {
+    display: none; } }
+
 .short-info {
   vertical-align: center; }
   .short-info * {
@@ -60,7 +64,8 @@
 #fun-output {
   margin: 85px 10px 0 10px;
   min-width: 200px;
-  height: 120px; }
+  height: 120px;
+  font-size: 22px; }
 
 ::placeholder {
   color: darkgrey; }
@@ -85,9 +90,13 @@
   cursor: pointer;
   color: black;
   font-size: 24px;
+  text-transform: uppercase;
   background-color: burlywood;
   border: 2px solid grey;
     border-radius: 10px; }
+
+.my-button:hover {
+  background-color: #ffdf80; }
 
 .wow-tauren-icons img {
   margin: 4px 6px;
@@ -181,12 +190,19 @@ button.bg-success:focus {
 .bg-expands {
   background-color: #994d00; }
 
+#about-info {
+  margin-top: 120px;
+  min-height: 55vh; }
+
 body, html {
   background-image: radial-gradient(circle, #2b60a6, #484174, #3f2946, #271721, #000000);
   color: white;
   max-width: 100%;
   overflow-x: hidden !important;
   font-size: 18px; }
+
+.jolly-font {
+  font-family: 'Spicy Rice', cursive; }
 
 a {
   color: white;
@@ -200,16 +216,21 @@ a:hover {
 
 .navbar {
   min-height: 80px;
-  padding: 20px 20%;
-  border-bottom: 2px solid #0d0d0d; }
+  padding: 20px 20%; }
+  @media (max-width: 767px) {
+    .navbar {
+      padding: 20px 4%; } }
 
 nav .navbar-nav li a {
   color: yellow !important;
   text-transform: uppercase;
   margin-right: 15px; }
 
+nav .navbar-nav li a:hover {
+  text-decoration: underline; }
+
 #brand-name {
-  font-size: 20px;
+  font-size: 26px;
   color: white;
   padding-left: 5%; }
 

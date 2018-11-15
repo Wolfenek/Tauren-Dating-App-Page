@@ -17,6 +17,7 @@
     margin: 85px 10px 0 10px;
     min-width: 200px;
     height: 120px;
+    font-size: 22px;
 }
 
 ::placeholder {
@@ -49,10 +50,14 @@
     cursor: pointer;
     color: black;
     font-size: 24px;
+    text-transform: uppercase;
     background-color: burlywood;
     border: 2px solid grey {
         radius: 10px;
     }
+}
+.my-button:hover {
+    background-color: #ffdf80;
 }
 
 //Tauren icons

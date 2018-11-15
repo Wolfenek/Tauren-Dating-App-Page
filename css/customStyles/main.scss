@@ -6,6 +6,7 @@
 @import "section3";
 @import "footer";
 @import "faq";
+@import "about";
 
 body, html {
     background-image: $main-color;
@@ -13,6 +14,10 @@ body, html {
     max-width: 100%;
     overflow-x: hidden !important;
     font-size: 18px;
+}
+//second font type
+.jolly-font {
+    font-family: 'Spicy Rice', cursive;
 }
 //links
 a {
@@ -31,7 +36,9 @@ a:hover {
 .navbar {
     min-height: 80px;
     padding: 20px 20%;
-    border-bottom: 2px solid #0d0d0d;
+    @media (max-width: 767px) {
+        padding: 20px 4%;
+    }
 }
 // changing nav link color
 nav .navbar-nav li a {
@@ -40,8 +47,12 @@ nav .navbar-nav li a {
     margin-right: 15px;
   }
 
+nav .navbar-nav li a:hover {
+    text-decoration: underline;
+}
+// MooMooSmile brand name
 #brand-name {
-    font-size: 20px; 
+    font-size: 26px;
     color: white;
     padding-left: 5%;
 }
