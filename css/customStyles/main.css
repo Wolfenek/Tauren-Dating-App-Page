@@ -95,9 +95,6 @@
   border: 2px solid grey;
     border-radius: 10px; }
 
-.my-button:hover {
-  background-color: #ffdf80; }
-
 .wow-tauren-icons img {
   margin: 4px 6px;
   cursor: pointer; }
@@ -192,7 +189,7 @@ button.bg-success:focus {
 
 #about-info {
   margin-top: 120px;
-  min-height: 55vh; }
+  min-height: 60vh; }
 
 body, html {
   background-image: radial-gradient(circle, #2b60a6, #484174, #3f2946, #271721, #000000);
