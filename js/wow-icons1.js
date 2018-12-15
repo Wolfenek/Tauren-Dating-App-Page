@@ -1,81 +1,48 @@
-const endAnimation = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oAnimationEnd animationend';
-// 1st set of icons:
+
 
 $(function() {
-    $('#warrior').on('click',function() {
-        $('#warrior').addClass('twist-it').one(endAnimation,function() {
-            $(this).removeClass('twist-it');
-        });
-    });
-    
-    $('#paladin').on('click',function() {
-        $('#paladin').addClass('twist-it').one(endAnimation,function() {
-            $(this).removeClass('twist-it');
-        });
-    });
-    
-    $('#dk').on('click',function() {
-        $('#dk').addClass('twist-it').one(endAnimation,function() {
-            $(this).removeClass('twist-it');
-        });
-    });
-    
-    $('#hunter').on('click',function() {
-        $('#hunter').addClass('twist-it').one(endAnimation,function() {
-            $(this).removeClass('twist-it');
-        });
-    });
-    
-     $('#shaman').on('click',function() {
-        $('#shaman').addClass('twist-it').one(endAnimation,function() {
-            $(this).removeClass('twist-it');
-        });
-    });
-    
-    $('#druid').on('click',function() {
-        $('#druid').addClass('twist-it').one(endAnimation,function() {
-            $(this).removeClass('twist-it');
-        });
-    });
-    
-    $('#monk').on('click',function() {
-        $('#monk').addClass('twist-it').one(endAnimation,function() {
-            $(this).removeClass('twist-it');
-        });
-    });
-    
-     $('#priest').on('click',function() {
-        $('#priest').addClass('twist-it').one(endAnimation,function() {
-            $(this).removeClass('twist-it');
-        });
-    });
-    
-});
-// 2nd set of icons:
 
-$(function() {
-    $('#t-male').on('click',function() {
-        $('#t-male').addClass('scale-it').one(endAnimation,function() {
-            $(this).removeClass('scale-it');
-        });
+    const endAnimation = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oAnimationEnd animationend';
+
+    // function that twists the icon. Passed as a parameter to the 'on' method in the examples below.
+    function twistTheIcon() {
+        $(this).addClass('twist-it').one(endAnimation,function() {
+        $(this).removeClass('twist-it');
     });
+}
+    // 1st set of icons:
+
+    $('#warrior').on('click',twistTheIcon);
     
-    $('#t-female').on('click',function() {
-        $('#t-female').addClass('scale-it').one(endAnimation,function() {
-            $(this).removeClass('scale-it');
-        });
-    });
+    $('#paladin').on('click',twistTheIcon);
     
-    $('#h-male').on('click',function() {
-        $('#h-male').addClass('scale-it').one(endAnimation,function() {
-            $(this).removeClass('scale-it');
-        });
-    });
+    $('#dk').on('click',twistTheIcon);
     
-     $('#h-female').on('click',function() {
-        $('#h-female').addClass('scale-it').one(endAnimation,function() {
+    $('#hunter').on('click',twistTheIcon);
+    
+    $('#shaman').on('click',twistTheIcon);
+    
+    $('#druid').on('click',twistTheIcon);
+    
+    $('#monk').on('click',twistTheIcon);
+    
+    $('#priest').on('click',twistTheIcon);
+
+       // function that scales the icon. Passed as a parameter to the 'on' method in the examples below.
+       function scaleTheIcon() {
+        $(this).addClass('scale-it').one(endAnimation,function() {
             $(this).removeClass('scale-it');
         });
-    });
+    }
+
+    // 2nd set of icons:
+
+    $('#t-male').on('click',scaleTheIcon);
+    
+    $('#t-female').on('click',scaleTheIcon);
+    
+    $('#h-male').on('click',scaleTheIcon);
+    
+    $('#h-female').on('click',scaleTheIcon);
     
 });
