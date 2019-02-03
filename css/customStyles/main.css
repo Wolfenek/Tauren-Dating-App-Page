@@ -110,20 +110,17 @@
     transform: scale(1.2); }
   100% {
     transform: scale(1); } }
-#bg-switch {
-  min-height: 90vh;
-  width: auto; }
+#happy-members {
+  border-bottom: 3px solid #0d0d0d;
+  background: #2f3f6a;
+  cursor: pointer; }
+  #happy-members :hover {
+    color: burlywood;
+    transition: 0.3s; }
 
-.moo {
-  min-height: 50px;
-  min-width: 100px;
-  padding: 0.5rem 0.25rem;
-  background-color: #2f3f6a;
-  color: white;
-  cursor: pointer;
-  text-transform: capitalize;
-  border: 1px solid #303030;
-    border-radius: 10px; }
+#bg-switch {
+  height: 80vh;
+  width: auto; }
 
 footer {
   background-color: #1a1a1a;

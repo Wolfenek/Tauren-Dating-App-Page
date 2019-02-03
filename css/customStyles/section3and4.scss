@@ -1,0 +1,15 @@
+//section 3 and 4
+#happy-members {
+    border-bottom: 3px solid #0d0d0d;
+    background: $secondary-color;
+    cursor: pointer;
+    :hover {
+      color: burlywood;
+      transition: 0.3s;
+    }
+}
+
+#bg-switch {
+    height: 80vh;
+    width: auto;
+}
