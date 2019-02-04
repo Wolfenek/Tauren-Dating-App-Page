@@ -96,7 +96,8 @@
     border-radius: 10px; }
 
 .moo {
-  min-height: 40px; }
+  min-height: 40px;
+  padding: 10px 0; }
 
 #happy-members {
   border-top: 3px solid #0d0d0d;
@@ -108,7 +109,7 @@
     transition: 0.3s; }
 
 #bg-switch {
-  height: 80vh;
+  height: 78vh;
   width: auto; }
 
 .wow-tauren-icons img {
