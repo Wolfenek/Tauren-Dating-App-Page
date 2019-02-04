@@ -12,7 +12,7 @@
 
 .first-section {
   min-height: calc(80vh - 140px);
-  margin-top: 120px; }
+  margin-top: 15px; }
 
 @media (max-width: 767px) {
   .flavor-text {
@@ -55,7 +55,7 @@
   width: auto; }
 
 #sign-up-form {
-  margin: 1rem auto;
+  margin: 0 auto;
   max-width: 450px;
   height: 720px;
   border: 2px solid grey;
@@ -95,6 +95,22 @@
   border: 2px solid grey;
     border-radius: 10px; }
 
+.moo {
+  min-height: 40px; }
+
+#happy-members {
+  border-top: 3px solid #0d0d0d;
+  border-bottom: 3px solid #0d0d0d;
+  background: #2f3f6a;
+  cursor: pointer; }
+  #happy-members :hover {
+    color: burlywood;
+    transition: 0.3s; }
+
+#bg-switch {
+  height: 80vh;
+  width: auto; }
+
 .wow-tauren-icons img {
   margin: 4px 6px;
   cursor: pointer; }
@@ -110,18 +126,6 @@
     transform: scale(1.2); }
   100% {
     transform: scale(1); } }
-#happy-members {
-  border-bottom: 3px solid #0d0d0d;
-  background: #2f3f6a;
-  cursor: pointer; }
-  #happy-members :hover {
-    color: burlywood;
-    transition: 0.3s; }
-
-#bg-switch {
-  height: 80vh;
-  width: auto; }
-
 footer {
   background-color: #1a1a1a;
   padding: 40px 0; }

@@ -5,7 +5,7 @@
 }
 
 #sign-up-form {
-    margin: 1rem auto;
+    margin: 0 auto;
     max-width: 450px;
     height: 720px;
     border: 2px solid grey {
@@ -55,21 +55,4 @@
     border: 2px solid grey {
         radius: 10px;
     }
-}
-
-//Tauren icons
-.wow-tauren-icons {
-    img {
-        @include iconic;
-    }
-}
-
-.scale-it {
-    animation-name: grow;
-    animation-duration: 1500ms;
-}
-@keyframes grow {
-    0% {transform: scale(1);}
-    50% {transform: scale(1.2);}
-    100% {transform: scale(1);}
 }
