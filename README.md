@@ -7,6 +7,10 @@
 
 World of Warcraft fan project - Tauren Dating App Landing Page.
 
+# Technologies used
+
+HTML, SCSS, Bootstrap 4, JavaScript, jQuery
+
 # Features
 
 - responsive design
