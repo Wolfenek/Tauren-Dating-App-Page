@@ -1,3 +1,6 @@
+# Link to project
+https://wolfenek.github.io/Tauren-Dating-App-Page/
+
 # Screen shots
 ![](screenshots/picture1.PNG)
 ![](screenshots/picture2.PNG)
@@ -6,6 +9,10 @@
 # Topic
 
 World of Warcraft fan project - Tauren Dating App Landing Page.
+
+# Technologies used
+
+HTML, SCSS, Bootstrap 4, JavaScript, jQuery
 
 # Features
 
